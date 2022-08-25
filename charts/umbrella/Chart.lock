@@ -1,0 +1,15 @@
+dependencies:
+- name: component-a
+  repository: file://../A
+  version: 0.0.1
+- name: component-b
+  repository: file://../B
+  version: 0.0.1
+- name: component-c
+  repository: file://../C
+  version: 0.0.1
+- name: database
+  repository: file://../D
+  version: 0.0.1
+digest: sha256:f3cc75686018ed482ad2d0170de2a5a40679c17b4109cd31af752278ed2cacaa
+generated: "2022-08-18T14:18:01.117097+08:00"

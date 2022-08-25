@@ -1,0 +1,4 @@
+---
+apiVersion: v2
+name: component-c
+version: "0.0.1"

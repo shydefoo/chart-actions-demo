@@ -1,0 +1,9 @@
+---
+apiVersion: v2
+name: database
+version: "0.0.1"
+dependencies:
+  - name: database_prime
+    version: 0.0.1
+    repository: "file://../D_prime"
+    condition: database-prime.enabled

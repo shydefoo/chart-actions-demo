@@ -1,0 +1,7 @@
+containerPort: 8080
+
+postgresql:
+  enabled: true
+
+  database-prime:
+    enabled: true

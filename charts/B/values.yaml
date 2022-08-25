@@ -1,0 +1,4 @@
+containerPort: 10080
+
+merlin-postgresql:
+  enabled: true

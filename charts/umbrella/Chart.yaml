@@ -1,0 +1,24 @@
+---
+apiVersion: v2
+name: umbrella
+version: "0.0.1"
+dependencies:
+  - name: component-a
+    version: 0.0.1
+    repository: "file://../A"
+    condition: component-a.enabled
+  - name: component-b
+    version: 0.0.1
+    repository: "file://../B"
+    condition: component-b.enabled
+  - name: component-c
+    version: 0.0.1
+    repository: "file://../C"
+    condition: component-c.enabled
+  - name: database
+    version: 0.0.1
+    repository: "file://../D"
+    tags:
+      - test-tag
+    condition: postgresql.enabled
+    alias: postgresql
