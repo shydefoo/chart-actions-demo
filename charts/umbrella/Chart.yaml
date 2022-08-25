@@ -22,3 +22,6 @@ dependencies:
       - test-tag
     condition: postgresql.enabled
     alias: postgresql
+maintainers:
+  - email: email@example.com
+    name: Name
