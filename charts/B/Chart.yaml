@@ -10,3 +10,6 @@ dependencies:
     alias: postgresql
     tags:
       - test-tag
+maintainers:
+  - email: email@example.com
+    name: Name
