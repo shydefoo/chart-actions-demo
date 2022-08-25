@@ -1,7 +1,0 @@
----
-apiVersion: v2
-name: component-c
-version: "0.0.1"
-maintainers:
-  - email: email@example.com
-    name: Name

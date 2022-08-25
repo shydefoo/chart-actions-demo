@@ -1,5 +1,0 @@
----
-containerPort: 9080
-
-database-prime:
-  enabled: true
