@@ -1,6 +1,0 @@
-dependencies:
-- name: database-prime
-  repository: file://../D_prime
-  version: 0.0.1
-digest: sha256:e373dc8423d308e0f132dbd61c84114c34482fd45b8e67202b350056956fdbfe
-generated: "2022-08-25T16:54:29.353077+08:00"
