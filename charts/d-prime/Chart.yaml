@@ -1,0 +1,7 @@
+---
+apiVersion: v2
+name: database-prime
+version: "0.0.1"
+maintainers:
+  - email: email@example.com
+    name: Name
