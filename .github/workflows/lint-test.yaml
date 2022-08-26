@@ -36,6 +36,10 @@ jobs:
             echo "::set-output name=changed::true"
           fi
 
+      - name: Add dependency chart repos
+        run: |
+          helm repo add chart-actions-demo https://maniteja6799.github.io/chart-actions-demo/
+
       - name: Run chart-testing (lint)
         run: ct lint --config ct.yaml
 
