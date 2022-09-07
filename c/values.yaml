@@ -1,1 +1,4 @@
 containerPort: 8080
+
+someNewValue:
+  enabled: true
